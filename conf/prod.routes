@@ -1,5 +1,4 @@
-# Add all the application routes to the app.routes file
-->         /common-transit-convention-traders-testing-guide              app.Routes
-->         /                          health.Routes
-
-GET        /admin/metrics             com.kenshoo.play.metrics.MetricsController.metrics
+->      /                                                  health.Routes
+GET     /guides/common-transit-convention-traders-testing-guide          controllers.Default.redirect(to = "/guides/common-transit-convention-traders-testing-guide/")
+GET     /guides/common-transit-convention-traders-testing-guide/          controllers.Assets.at(path="/public", file="index.html")
+GET     /guides/common-transit-convention-traders-testing-guide/*file     controllers.Assets.at(path="/public", file)
