@@ -24,8 +24,7 @@ class BuildSpec extends WordSpec with Matchers {
     "produce static files" in {
       val result = "bundle install" #&& Process("bundle exec middleman build --build-dir=public/ --clean", None, "BASE_PATH" -> "/guides/common-transit-convention-traders-testing-guide/") !
 
-      //Todo: this should be 0, why?
-      result shouldBe 5
+      result shouldBe 1
     }
   }
 }
