@@ -10,12 +10,12 @@ description: Software developers, designers, product owners or business analysts
 
 This reference page signposts software developers to essential information and materials. You’ll need this information when developing and testing your software to interact and work with our CTC API and HMRC systems. We’ve included more detailed instructions further down this page.
 
-### General introduction reading to CTC
+## General introduction reading to CTC
 
 - [Introduction to Common Transit Convention](https://www.gov.uk/guidance/common-transit-convention-countries) and participating countries
 - [CTC newsletter updates and general information](https://www.gov.uk/government/publications/community-common-transit-and-tir-newsletters) - read and bookmark this page for future reference
 
-### Essential reading
+## Essential reading
 
 - [CTC API documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0)
 - [CTC service roadmap](https://developer.service.hmrc.gov.uk/roadmaps/common-transit-convention-traders-roadmap/)
@@ -24,7 +24,7 @@ This reference page signposts software developers to essential information and m
 - Service tube maps of arrivals and departures journeys (coming soon)
 - [Step by step tutorials](https://developer.service.hmrc.gov.uk/api-documentation/docs/tutorials) to write a program to connect to an HMRC API
 
-### Essential developer materials
+## Essential developer materials
 
 - [NCTS Technical Interface Specifications (TIS)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/952903/TIS-012021accessible-v2__1_.pdf)
 - [TIS Appendices](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf)
@@ -42,7 +42,7 @@ This section provides more detailed information and instructions to new software
 
 We strongly advise you to start testing your software for compatibility purposes as soon as possible. 
 
-### Test your scenarios
+## Test your scenarios
 
 - Our API lets software developers and test engineers submit departure and arrival movement notifications into our sandbox testing environment. 
 - You can test your software by using our sandbox to ensure that its connectivity works properly with HMRC systems.
@@ -56,7 +56,7 @@ You must
 3. Cross reference with [TIS Appendix B Technical Message Structures](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf) to check which data fields are optional and mandatory. 
 4. You can test and simulate these movement notifications as if they have come from an office of departure or also an office of destination using the New Computerised Transit System (NCTS). When you need to do this manual response email us to request this. You can find more information about this in the NCTS Access and Channels document.
 
-### How to get set up for testing 
+## How to get set up for testing 
 
 1. First register for a developer account. You can do this by following the instructions on the [Using the Developer Hub](https://developer.service.hmrc.gov.uk/api-documentation/docs/using-the-hub) page.
 2. [Sign back in](https://developer.service.hmrc.gov.uk/developer/login) to the HMRC Developer Hub
@@ -75,7 +75,7 @@ You must
 }
 ```
 
-#### How to test using sample test scripts
+## How to test using sample test scripts
 
 You can find cURL commands and Postman collections on our [GitHub page](https://github.com/hmrc/common-transit-convention-traders-postman).
 
@@ -99,7 +99,7 @@ You will need to:
 - Access the [readme file](https://github.com/hmrc/common-transit-convention-traders-postman/blob/master/README.md) and Postman Collections for CTC API Traders
 - Follow the on screen instructions
 
-#### XSD files
+## XSD files
 
 You can access a full list of [XSD reference files](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html) to check your XML files against our XSD files. Use these to validate your own XML.
 
@@ -111,15 +111,15 @@ You can access a full list of [XSD reference files](https://developer.service.hm
   - IE043 (CC043A)
   - IE051 (CC051B)
 
-#### Mapping document
+## Mapping document
 
-You can access a [mapping document](https://github.com/hmrc/common-transit-convention-traders-test-support/raw/master/resources/public/api/conf/1.0/docs/xml-2-edifact-mapping-updated12112020.pdf.) containing plain English header descriptions, XML and EDIFACT code.
+You can access a [mapping document](./../figures/xml-2-edifact-mapping-updated12112020.pdf) containing plain English header descriptions, XML and EDIFACT code.
 
-#### Trader Test Pack for GB
+## Trader Test Pack for GB
 
 You can access the latest [Trader Test Pack for GB](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/937032/NCTS_4_GB.pdf) (pdf document opens in a new tab). You can use these test scenarios for England, Wales and Scotland only.
 
-#### NCTS API technical interface specifications (TIS)
+## NCTS API technical interface specifications (TIS)
 
 You can find all the [NCTS API technical Interface specifications](https://www.gov.uk/government/publications/new-computerised-transit-system-technical-specifications) in one location. 
 
@@ -135,7 +135,7 @@ You should note that:
 - we will revise and republish the CTC Traders API technical specifications for Common Transit Convention later in 2021 so bookmark this page to access them when they are published
 - you will find the TIS Appendices very useful. [Appendix B Technical Message Structures](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf) will help you to check which data fields are optional and mandatory
 
-##### Running test data sets 
+## Running test data sets 
 
 Once you have successfully run your tests using the test data exactly as is set out for each scenario, you can then run test data in any of the other fields. 
 
@@ -143,12 +143,9 @@ There is an exception. You must not change the field data for the Consignor and 
 
 So for example, when testing message IE015 do not change the text which is **BLOCK CAPITALS AND IN BOLD** at all:
 
+#### CONSIGNOR
+
 <table>
-  <tr>
-    <th>CONSIGNOR</th>
-    <th></th>
-    <th></th>
-  </tr>
   <tr>
     <th>Reference</th>
     <th>Description</th>
@@ -191,12 +188,9 @@ So for example, when testing message IE015 do not change the text which is **BLO
   </tr>
 </table>
 
+#### CONSIGNEE
+
 <table>
-  <tr>
-    <th>CONSIGNEE</th>
-    <th></th>
-    <th></th>
-  </tr>
   <tr>
     <th>Reference</th>
     <th>Description</th>
@@ -239,12 +233,9 @@ So for example, when testing message IE015 do not change the text which is **BLO
   </tr>
 </table>
 
+#### GUARANTEE - REFERENCE
+
 <table>
-  <tr>
-    <th>GUARANTEE - REFERENCE</th>
-    <th></th>
-    <th></th>
-  </tr>
   <tr>
     <th>Reference</th>
     <th>Description</th>
@@ -271,18 +262,18 @@ You can also use the reference data included in our Test Pack to run your softwa
 
 You must always remember to follow the same physical format for all data fields. For example, you could replace £5,000.00 guarantee amount to £11,000.00.
 
-#### Checking API service availability
+## Checking API service availability
 
 You can check planned API downtime or if there are technical issues:
 
 - [Check HMRC API platform availability](https://api-platform-status.production.tax.service.gov.uk/)
 - [Check the NCTS service availability](https://www.gov.uk/government/publications/new-computerised-transit-system-ncts-web-service-availability-and-issues/new-computerised-transit-system-ncts-web-service-availability-and-issues)
 
-#### If you find a bug
+## If you find a bug
 
 If you have found a bug in our code, you can get in touch with our developers directly on our [GitHub Issues page](https://github.com/hmrc/common-transit-convention-traders/issues).
 
-#### Contact us for CTC API specific advice
+## Contact us for CTC API specific advice
 
 - If you have a specific question about the CTC Traders API, get in touch with our Software Developer Support Team. You’ll get an initial response in 2 working days
 - We are here to help with CTC Traders API questions and to support you
@@ -290,7 +281,7 @@ If you have found a bug in our code, you can get in touch with our developers di
 
 Email us your questions at <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Email enquiry from CTC Online Trader Test page">SDSTeam@hmrc.gov.uk</a> or send an online enquiry. We might ask for more detailed information when we respond.
 
-##### Submit your test results 
+## Submit your test results 
 
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API: 
 
@@ -301,8 +292,10 @@ Once you are satisfied with your tests and are confident that your software is f
 5. We will check your test evidence using the information you give on this form.
 6. When we are satisfied that you have done enough testing, you will be granted access to the live API system.
 
-##### If you need further help and support
+## If you need further help and support
 
 Email our dedicated software developer support team at <a href="mailto:SDSTeam@hmrc.gov.uk">SDSTeam@hmrc.gov.uk</a> if you have any questions or difficulties or need additional clarification on this testing process.
 
 For versioning information and a list of errors that you might receive please refer to the [CTC API Definition](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0) page.
+
+Bookmark and save this page for future reference.
