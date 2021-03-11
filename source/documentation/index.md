@@ -143,12 +143,9 @@ There is an exception. You must not change the field data for the Consignor and 
 
 So for example, when testing message IE015 do not change the text which is **BLOCK CAPITALS AND IN BOLD** at all:
 
+#### CONSIGNOR
+
 <table>
-  <tr>
-    <th>CONSIGNOR</th>
-    <th></th>
-    <th></th>
-  </tr>
   <tr>
     <th>Reference</th>
     <th>Description</th>
@@ -191,13 +188,9 @@ So for example, when testing message IE015 do not change the text which is **BLO
   </tr>
 </table>
 
+#### CONSIGNEE
 
 <table>
-  <tr>
-    <th>CONSIGNEE</th>
-    <th></th>
-    <th></th>
-  </tr>
   <tr>
     <th>Reference</th>
     <th>Description</th>
@@ -240,13 +233,9 @@ So for example, when testing message IE015 do not change the text which is **BLO
   </tr>
 </table>
 
+#### GUARANTEE - REFERENCE
 
 <table>
-  <tr>
-    <th>GUARANTEE - REFERENCE</th>
-    <th></th>
-    <th></th>
-  </tr>
   <tr>
     <th>Reference</th>
     <th>Description</th>
