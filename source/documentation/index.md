@@ -297,3 +297,5 @@ Once you are satisfied with your tests and are confident that your software is f
 Email our dedicated software developer support team at <a href="mailto:SDSTeam@hmrc.gov.uk">SDSTeam@hmrc.gov.uk</a> if you have any questions or difficulties or need additional clarification on this testing process.
 
 For versioning information and a list of errors that you might receive please refer to the [CTC API Definition](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0) page.
+
+Bookmark and save this page for future reference.
