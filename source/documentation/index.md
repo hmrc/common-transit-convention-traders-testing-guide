@@ -113,7 +113,7 @@ You can access a full list of [XSD reference files](https://developer.service.hm
 
 ## Mapping document
 
-You can access a [mapping document](https://github.com/hmrc/common-transit-convention-traders-test-support/raw/master/resources/public/api/conf/1.0/docs/xml-2-edifact-mapping-updated12112020.pdf.) containing plain English header descriptions, XML and EDIFACT code.
+You can access a [mapping document](./../figures/xml-2-edifact-mapping-updated12112020.pdf) containing plain English header descriptions, XML and EDIFACT code.
 
 ## Trader Test Pack for GB
 
