@@ -104,7 +104,7 @@ You will need to:
 You can access a full list of [XSD reference files](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html) to check your XML files against our XSD files. Use these to validate your own XML.
 
 - You should note there are some known omissions in this XSD list
-- These are all listed in a [mapping document](https://github.com/hmrc/common-transit-convention-traders-test-support/raw/master/resources/public/api/conf/1.0/docs/xml-2-edifact-mapping-updated12112020.pdf.) so ensure you cross-reference this document when testing
+- These are all listed in a [mapping document](./../figures/xml-2-edifact-mapping-updated12112020.pdf) so ensure you cross-reference this document when testing
 - You should also note that NumOfLoaLisHEA304 has been included in error in the following messages, and to ignore these:
   - IE015 (CC015B)
   - IE029 (CC029B)
