@@ -283,14 +283,16 @@ Email us your questions at <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Email enq
 
 ## Submit your test results 
 
+* We will soon update you by email when the API is ready to use in production for Great Britain (not Northern Ireland)
+
+\* When this goes live, we'll email you an Application for Production Credentials Checklist form to complete and email back to us.
+
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API: 
 
-1. Send an email to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=I want access to the live CTC API system. Email me instructions.">SDSTeam@hmrc.gov.uk</a> to advise us that you are ready and want to request access to the live API system.
-2. We will email to you an Application for Production Credentials Checklist form to fill in.
-3. Log all your evidence and results by filling in all the sections of this checklist form.
-4. When you are ready, email your completed form to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Completed CTC API Application for Production Checklist form is attached to this email.">SDSTeam@hmrc.gov.uk</a>
-5. We will check your test evidence using the information you give on this form.
-6. When we are satisfied that you have done enough testing, you will be granted access to the live API system.
+1. Log all your evidence and results by filling in all the sections of this checklist form.
+2. When you are ready, email your completed form to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Completed CTC API Application for Production Checklist form is attached to this email.">SDSTeam@hmrc.gov.uk</a>
+3. We will check your test evidence using the information you give on this form.
+4. When we are satisfied that you have done enough testing, you will be granted access to the live API system.
 
 ## If you need further help and support
 
