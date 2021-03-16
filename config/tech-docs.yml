@@ -3,7 +3,7 @@ host: docs.developer.service.hmrc.gov.uk
 
 # Header-related options
 show_govuk_logo: true
-service_name: Common transit convention traders testing guide - HMRC Developer Hub - GOV.UK
+service_name: Common transit convention traders testing guide
 service_link: https://developer.service.hmrc.gov.uk/
 
 # Links to show on right-hand-side of header

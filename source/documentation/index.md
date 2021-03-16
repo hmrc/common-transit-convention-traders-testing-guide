@@ -1,10 +1,10 @@
 ---
-title: Common Transit Convention Traders testing guide
+title: CTC Traders Testing Guide
 weight: 1
 description: Software developers, designers, product owners or business analysts. Integrate your software with Common Transit Convention Traders API.
 ---
 
-# Common Transit Convention Traders API trader test guidance and support for software developers
+# CTC Traders Testing Guide
 
 ## General guidance
 
