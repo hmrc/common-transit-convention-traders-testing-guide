@@ -284,8 +284,7 @@ Email us your questions at <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Email enq
 ## Submit your test results 
 
 * We will soon update you by email when the API is ready to use in production for Great Britain (not Northern Ireland)
-
-\* When this goes live, we'll email you an Application for Production Credentials Checklist form to complete and email back to us.
+* When this goes live, we'll email you an Application for Production Credentials Checklist form to complete and email back to us.
 
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API: 
 
