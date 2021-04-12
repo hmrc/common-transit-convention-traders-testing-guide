@@ -4,13 +4,13 @@ weight: 1
 description: Software developers, designers, product owners or business analysts. Integrate your software with Common Transit Convention Traders API.
 ---
 
-# CTC Traders Testing Guide
+# CTC Traders API trader test guidance and support
 
 ## General guidance
 
-This reference page signposts software developers to essential information and materials. You’ll need this information when developing and testing your software to interact and work with our CTC API and HMRC systems. We’ve included more detailed instructions further down this page.
+This reference page signposts software developers to essential information and materials. You’ll need this information when developing and testing your software to interact and work with our CTC Traders API and HMRC systems. We’ve included more detailed instructions further down this page.
 
-## General introduction reading to CTC
+## General introduction to CTC
 
 - [Introduction to Common Transit Convention](https://www.gov.uk/guidance/common-transit-convention-countries) and participating countries
 - [CTC newsletter updates and general information](https://www.gov.uk/government/publications/community-common-transit-and-tir-newsletters) - read and bookmark this page for future reference
@@ -32,13 +32,13 @@ This reference page signposts software developers to essential information and m
 - Trader Test Pack for NI (functionality coming soon)
 - [NCTS Trader Test Access and Channels](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf)
 - [IE messages supported by CTC](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/supported-messages.html)
-- [Postman collection of example API calls and Curl commands](https://github.com/hmrc/common-transit-convention-traders-postman)
+- [Postman collection of example API calls and cURL commands](https://github.com/hmrc/common-transit-convention-traders-postman)
 - [XSD reference files](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html)
 - [Mapping document which translates  EDIFACT to XML](https://github.com/hmrc/common-transit-convention-traders-test-support/raw/master/resources/public/api/conf/1.0/docs/xml-2-edifact-mapping-updated12112020.pdf) and also contains the human readable fieldnames (pdf document opens and downloads)
 
 ## Detailed guidance
 
-This section provides more detailed information and instructions to new software developers using our API. You’ll need this information when developing and testing your software to ensure it is compatible with our CTC API and HMRC Systems.
+This section provides more detailed information and instructions to new software developers using our CTC Traders API. You’ll need this information when developing and testing your software to ensure it is compatible with our CTC Traders API and HMRC Systems.
 
 We strongly advise you to start testing your software for compatibility purposes as soon as possible. 
 
@@ -54,7 +54,7 @@ You must
 1. Test common scenarios using our [Trader Test Pack](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/937032/NCTS_4_GB.pdf). This gives you all the reference data you need to do our tests plus any of your own tailored tests.
 2. Check against our [XSDs](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html) for schema validation. You can download a zip file with all the CTC Traders API XSDs.
 3. Cross reference with [TIS Appendix B Technical Message Structures](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf) to check which data fields are optional and mandatory. 
-4. You can test and simulate these movement notifications as if they have come from an office of departure or also an office of destination using the New Computerised Transit System (NCTS). When you need to do this manual response email us to request this. You can find more information about this in the NCTS Access and Channels document.
+4. When you need a manual response, email us to request this. You can find more information about this in the [NCTS Access and Channels document](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf).
 
 ## How to get set up for testing 
 
