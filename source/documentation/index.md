@@ -288,7 +288,7 @@ Email us your questions at <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Email enq
 
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API: 
 
-1. Log all your evidence and results by filling in all the sections of this checklist form.
+1. Log all your evidence and results by filling in all the sections of this [checklist form](./..//figures/CTC Traders API Application for Productions Credentials v11 dated 21.4.21 numbers match new CTC Traders API Test Pacl.docx) (this is a word document which is downloadable).
 2. When you are ready, email your completed form to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Completed CTC API Application for Production Checklist form is attached to this email.">SDSTeam@hmrc.gov.uk</a>
 3. We will check your test evidence using the information you give on this form.
 4. When we are satisfied that you have done enough testing, you will be granted access to the live API system.
