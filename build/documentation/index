@@ -263,7 +263,7 @@
 <p>Once you are satisfied with your tests and are confident that your software is fully compatible with our API:</p>
 
 <ol>
-<li>Log all your evidence and results by filling in all the sections of this checklist form.</li>
+<li>Log all your evidence and results by filling in all the sections of this <a href="/figures/CTC%20Traders%20API%20Application%20for%20Productions%20Credentials%20v11%20dated%2021.4.21%20numbers%20match%20new%20CTC%20Traders%20API%20Test%20Pacl.docx" rel="noopener noreferrer">checklist form</a> (this is a word document which is downloadable).</li>
 <li>When you are ready, email your completed form to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Completed CTC API Application for Production Checklist form is attached to this email.">SDSTeam@hmrc.gov.uk</a></li>
 <li>We will check your test evidence using the information you give on this form.</li>
 <li>When we are satisfied that you have done enough testing, you will be granted access to the live API system.</li>
