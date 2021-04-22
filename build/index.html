@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
-    <title>Common transit convention traders testing guide - HMRC Developer Hub - GOV.UK</title>
+    <title>Common transit convention traders testing guide</title>
 
     <!--[if gt IE 8]><!--><link href="/stylesheets/screen.css" rel="stylesheet" media="screen" /><!--<![endif]-->
     <!--[if lte IE 8]><link href="/stylesheets/screen-old-ie.css" rel="stylesheet" media="screen" /><![endif]-->
@@ -17,12 +17,12 @@
     <script src="/javascripts/application.js"></script>
 
       <meta property="og:image" content="docs.developer.service.hmrc.gov.uk/images/govuk-large.png" />
-      <meta property="og:site_name" content="Common transit convention traders testing guide - HMRC Developer Hub - GOV.UK" />
+      <meta property="og:site_name" content="Common transit convention traders testing guide" />
       <meta property="og:type" content="object" />
       <meta property="og:url" content="docs.developer.service.hmrc.gov.uk/" />
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:image" content="docs.developer.service.hmrc.gov.uk/images/govuk-large.png" />
-      <meta property="twitter:title" content="Common transit convention traders testing guide - HMRC Developer Hub - GOV.UK" />
+      <meta property="twitter:title" content="Common transit convention traders testing guide" />
       <meta property="twitter:url" content="docs.developer.service.hmrc.gov.uk/" />
   </head>
 
@@ -40,7 +40,7 @@
             GOV.UK
           </span>
         <span class="header__title">
-          Common transit convention traders testing guide - HMRC Developer Hub - GOV.UK
+          Common transit convention traders testing guide
         </span>
         </a>
     </div>
@@ -84,13 +84,13 @@
             <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading" data-module="collapsible-navigation">
                     <ul>
   <li>
-    <a href="/">Common Transit Convention Traders API trader test guidance and support for software developers</a>
+    <a href="/">CTC Traders API trader test guidance and support</a>
     <ul>
       <li>
         <a href="/#general-guidance">General guidance</a>
       </li>
       <li>
-        <a href="/#general-introduction-reading-to-ctc">General introduction reading to CTC</a>
+        <a href="/#general-introduction-to-ctc">General introduction to CTC</a>
       </li>
       <li>
         <a href="/#essential-reading">Essential reading</a>
@@ -151,17 +151,15 @@
 
         <div class="app-pane__content toc-open-disabled">
           <main id="content" class="technical-documentation" data-module="anchored-headings">
-            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSFTCWZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <script src="/tracking-consent/tracking.js" id="tracking-consent-script-tag" data-gtm-container="b" data-language="en"></script>
 
-<script src="/tracking-consent/tracking.js" id="tracking-consent-script-tag" data-gtm-container="b" data-language="en"></script>
-
-<h1 id="common-transit-convention-traders-api-trader-test-guidance-and-support-for-software-developers">Common Transit Convention Traders API trader test guidance and support for software developers</h1>
+<h1 id="ctc-traders-api-trader-test-guidance-and-support">CTC Traders API trader test guidance and support</h1>
 
 <h2 id="general-guidance">General guidance</h2>
 
-<p>This reference page signposts software developers to essential information and materials. You’ll need this information when developing and testing your software to interact and work with our CTC API and HMRC systems. We’ve included more detailed instructions further down this page.</p>
+<p>This reference page signposts software developers to essential information and materials. You’ll need this information when developing and testing your software to interact and work with our CTC Traders API and HMRC systems. We’ve included more detailed instructions further down this page.</p>
 
-<h2 id="general-introduction-reading-to-ctc">General introduction reading to CTC</h2>
+<h2 id="general-introduction-to-ctc">General introduction to CTC</h2>
 
 <ul>
 <li><a href="https://www.gov.uk/guidance/common-transit-convention-countries" rel="noopener noreferrer">Introduction to Common Transit Convention</a> and participating countries</li>
@@ -188,14 +186,14 @@
 <li>Trader Test Pack for NI (functionality coming soon)</li>
 <li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf" rel="noopener noreferrer">NCTS Trader Test Access and Channels</a></li>
 <li><a href="https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/supported-messages.html" rel="noopener noreferrer">IE messages supported by CTC</a></li>
-<li><a href="https://github.com/hmrc/common-transit-convention-traders-postman" rel="noopener noreferrer">Postman collection of example API calls and Curl commands</a></li>
+<li><a href="https://github.com/hmrc/common-transit-convention-traders-postman" rel="noopener noreferrer">Postman collection of example API calls and cURL commands</a></li>
 <li><a href="https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html" rel="noopener noreferrer">XSD reference files</a></li>
 <li><a href="https://github.com/hmrc/common-transit-convention-traders-test-support/raw/master/resources/public/api/conf/1.0/docs/xml-2-edifact-mapping-updated12112020.pdf" rel="noopener noreferrer">Mapping document which translates  EDIFACT to XML</a> and also contains the human readable fieldnames (pdf document opens and downloads)</li>
 </ul>
 
 <h2 id="detailed-guidance">Detailed guidance</h2>
 
-<p>This section provides more detailed information and instructions to new software developers using our API. You’ll need this information when developing and testing your software to ensure it is compatible with our CTC API and HMRC Systems.</p>
+<p>This section provides more detailed information and instructions to new software developers using our CTC Traders API. You’ll need this information when developing and testing your software to ensure it is compatible with our CTC Traders API and HMRC Systems.</p>
 
 <p>We strongly advise you to start testing your software for compatibility purposes as soon as possible.</p>
 
@@ -214,7 +212,7 @@
 <li>Test common scenarios using our <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/937032/NCTS_4_GB.pdf" rel="noopener noreferrer">Trader Test Pack</a>. This gives you all the reference data you need to do our tests plus any of your own tailored tests.</li>
 <li>Check against our <a href="https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html" rel="noopener noreferrer">XSDs</a> for schema validation. You can download a zip file with all the CTC Traders API XSDs.</li>
 <li>Cross reference with <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf" rel="noopener noreferrer">TIS Appendix B Technical Message Structures</a> to check which data fields are optional and mandatory. </li>
-<li>You can test and simulate these movement notifications as if they have come from an office of departure or also an office of destination using the New Computerised Transit System (NCTS). When you need to do this manual response email us to request this. You can find more information about this in the NCTS Access and Channels document.</li>
+<li>When you need a manual response, email us to request this. You can find more information about this in the <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf" rel="noopener noreferrer">NCTS Access and Channels document</a>.</li>
 </ol>
 
 <h2 id="how-to-get-set-up-for-testing">How to get set up for testing</h2>
@@ -457,12 +455,15 @@
 
 <h2 id="submit-your-test-results">Submit your test results</h2>
 
+<ul>
+<li>We will soon update you by email when the API is ready to use in production for Great Britain (not Northern Ireland)</li>
+<li>When this goes live, we&rsquo;ll email you an Application for Production Credentials Checklist form to complete and email back to us.</li>
+</ul>
+
 <p>Once you are satisfied with your tests and are confident that your software is fully compatible with our API:</p>
 
 <ol>
-<li>Send an email to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=I want access to the live CTC API system. Email me instructions.">SDSTeam@hmrc.gov.uk</a> to advise us that you are ready and want to request access to the live API system.</li>
-<li>We will email to you an Application for Production Credentials Checklist form to fill in.</li>
-<li>Log all your evidence and results by filling in all the sections of this checklist form.</li>
+<li>Log all your evidence and results by filling in all the sections of this <a href="/figures/CTC%20Traders%20API%20Application%20for%20Productions%20Credentials%20v11%20dated%2021.4.21%20numbers%20match%20new%20CTC%20Traders%20API%20Test%20Pacl.docx" rel="noopener noreferrer">checklist form</a> (this is a word document which is downloadable).</li>
 <li>When you are ready, email your completed form to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Completed CTC API Application for Production Checklist form is attached to this email.">SDSTeam@hmrc.gov.uk</a></li>
 <li>We will check your test evidence using the information you give on this form.</li>
 <li>When we are satisfied that you have done enough testing, you will be granted access to the live API system.</li>
