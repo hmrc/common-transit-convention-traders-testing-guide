@@ -1,7 +1,7 @@
-<h1 id="common-transit-convention-traders-api-trader-test-guidance-and-support-for-software-developers">Common Transit Convention Traders API trader test guidance and support for software developers</h1>
+<h1 id="ctc-traders-api-trader-test-guidance-and-support">CTC Traders API trader test guidance and support</h1>
 <h2 id="general-guidance">General guidance</h2>
-<p>This reference page signposts software developers to essential information and materials. You’ll need this information when developing and testing your software to interact and work with our CTC API and HMRC systems. We’ve included more detailed instructions further down this page.</p>
-<h2 id="general-introduction-reading-to-ctc">General introduction reading to CTC</h2>
+<p>This reference page signposts software developers to essential information and materials. You’ll need this information when developing and testing your software to interact and work with our CTC Traders API and HMRC systems. We’ve included more detailed instructions further down this page.</p>
+<h2 id="general-introduction-to-ctc">General introduction to CTC</h2>
 
 <ul>
 <li><a href="https://www.gov.uk/guidance/common-transit-convention-countries" rel="noopener noreferrer">Introduction to Common Transit Convention</a> and participating countries</li>
@@ -22,16 +22,16 @@
 <ul>
 <li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/952903/TIS-012021accessible-v2__1_.pdf" rel="noopener noreferrer">NCTS Technical Interface Specifications (TIS)</a></li>
 <li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf" rel="noopener noreferrer">TIS Appendices</a></li>
-<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/937032/NCTS_4_GB.pdf" rel="noopener noreferrer">Trader Test Pack for GB</a></li>
-<li>Trader Test Pack for NI (functionality coming soon)</li>
+<li><a href="https://www.gov.uk/government/publications/new-computerised-transit-system-technical-specifications" rel="noopener noreferrer">CTC Traders API Test Pack</a></li>
+<li><a href="/figures/CTC%20Traders%20API%20Application%20for%20Productions%20Credentials%20v11%20dated%2021.4.21%20numbers%20match%20new%20CTC%20Traders%20API%20Test%20Pacl.docx" rel="noopener noreferrer">Application for Production Credentials Checklist</a></li>
 <li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf" rel="noopener noreferrer">NCTS Trader Test Access and Channels</a></li>
 <li><a href="https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/supported-messages.html" rel="noopener noreferrer">IE messages supported by CTC</a></li>
-<li><a href="https://github.com/hmrc/common-transit-convention-traders-postman" rel="noopener noreferrer">Postman collection of example API calls and Curl commands</a></li>
+<li><a href="https://github.com/hmrc/common-transit-convention-traders-postman" rel="noopener noreferrer">Postman collection of example API calls and cURL commands</a></li>
 <li><a href="https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html" rel="noopener noreferrer">XSD reference files</a></li>
 <li><a href="https://github.com/hmrc/common-transit-convention-traders-test-support/raw/master/resources/public/api/conf/1.0/docs/xml-2-edifact-mapping-updated12112020.pdf" rel="noopener noreferrer">Mapping document which translates  EDIFACT to XML</a> and also contains the human readable fieldnames (pdf document opens and downloads)</li>
 </ul>
 <h2 id="detailed-guidance">Detailed guidance</h2>
-<p>This section provides more detailed information and instructions to new software developers using our API. You’ll need this information when developing and testing your software to ensure it is compatible with our CTC API and HMRC Systems.</p>
+<p>This section provides more detailed information and instructions to new software developers using our CTC Traders API. You’ll need this information when developing and testing your software to ensure it is compatible with our CTC Traders API and HMRC Systems.</p>
 <p>We strongly advise you to start testing your software for compatibility purposes as soon as possible.</p>
 <h2 id="test-your-scenarios">Test your scenarios</h2>
 
@@ -43,10 +43,10 @@
 <p>You must</p>
 
 <ol>
-<li>Test common scenarios using our <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/937032/NCTS_4_GB.pdf" rel="noopener noreferrer">Trader Test Pack</a>. This gives you all the reference data you need to do our tests plus any of your own tailored tests.</li>
+<li>Test common scenarios using our <a href="https://www.gov.uk/government/publications/new-computerised-transit-system-technical-specifications" rel="noopener noreferrer">CTC Traders API Test Pack</a>. This gives you all the reference data you need to do our tests plus any of your own tailored tests.</li>
 <li>Check against our <a href="https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html" rel="noopener noreferrer">XSDs</a> for schema validation. You can download a zip file with all the CTC Traders API XSDs.</li>
 <li>Cross reference with <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf" rel="noopener noreferrer">TIS Appendix B Technical Message Structures</a> to check which data fields are optional and mandatory. </li>
-<li>You can test and simulate these movement notifications as if they have come from an office of departure or also an office of destination using the New Computerised Transit System (NCTS). When you need to do this manual response email us to request this. You can find more information about this in the NCTS Access and Channels document.</li>
+<li>When you need a manual response, email us to request this. You can find more information about this in the <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf" rel="noopener noreferrer">NCTS Access and Channels document</a>.</li>
 </ol>
 <h2 id="how-to-get-set-up-for-testing">How to get set up for testing</h2>
 
@@ -101,8 +101,8 @@
 </ul>
 <h2 id="mapping-document">Mapping document</h2>
 <p>You can access a <a href="/figures/xml-2-edifact-mapping-updated12112020.pdf" rel="noopener noreferrer">mapping document</a> containing plain English header descriptions, XML and EDIFACT code.</p>
-<h2 id="trader-test-pack-for-gb">Trader Test Pack for GB</h2>
-<p>You can access the latest <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/937032/NCTS_4_GB.pdf" rel="noopener noreferrer">Trader Test Pack for GB</a> (pdf document opens in a new tab). You can use these test scenarios for England, Wales and Scotland only.</p>
+<h2 id="ctc-traders-api-test-pack">CTC Traders API Test Pack</h2>
+<p>You can download the latest <a href="https://www.gov.uk/government/publications/new-computerised-transit-system-technical-specifications" rel="noopener noreferrer">CTC Traders API Test Pack</a> to use when checking and testing your software is compatible with HMRC systems.</p>
 <h2 id="ncts-api-technical-interface-specifications-tis">NCTS API technical interface specifications (TIS)</h2>
 <p>You can find all the <a href="https://www.gov.uk/government/publications/new-computerised-transit-system-technical-specifications" rel="noopener noreferrer">NCTS API technical Interface specifications</a> in one location.</p>
 
@@ -255,11 +255,14 @@
 </ul>
 <p>Email us your questions at <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Email enquiry from CTC Online Trader Test page">SDSTeam@hmrc.gov.uk</a> or send an online enquiry. We might ask for more detailed information when we respond.</p>
 <h2 id="submit-your-test-results">Submit your test results</h2>
+
+<ul>
+<li>We will soon update you by email when the API is ready to use in production for Great Britain (not Northern Ireland)</li>
+<li>When this goes live, we&rsquo;ll email you an Application for Production Credentials Checklist form to complete and email back to us.</li>
+</ul>
 <p>Once you are satisfied with your tests and are confident that your software is fully compatible with our API:</p>
 
 <ol>
-<li>Send an email to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=I want access to the live CTC API system. Email me instructions.">SDSTeam@hmrc.gov.uk</a> to advise us that you are ready and want to request access to the live API system.</li>
-<li>We will email to you an Application for Production Credentials Checklist form to fill in.</li>
 <li>Log all your evidence and results by filling in all the sections of this checklist form.</li>
 <li>When you are ready, email your completed form to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Completed CTC API Application for Production Checklist form is attached to this email.">SDSTeam@hmrc.gov.uk</a></li>
 <li>We will check your test evidence using the information you give on this form.</li>
@@ -267,5 +270,5 @@
 </ol>
 <h2 id="if-you-need-further-help-and-support">If you need further help and support</h2>
 <p>Email our dedicated software developer support team at <a href="mailto:SDSTeam@hmrc.gov.uk">SDSTeam@hmrc.gov.uk</a> if you have any questions or difficulties or need additional clarification on this testing process.</p>
-<p>For versioning information and a list of errors that you might receive please refer to the <a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0" rel="noopener noreferrer">CTC API Definition</a> page.</p>
+<p>For versioning information and a list of errors that you might receive please refer to the <a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/1.0" rel="noopener noreferrer">CTC Traders API Definition</a> page.</p>
 <p>Bookmark and save this page for future reference.</p>
