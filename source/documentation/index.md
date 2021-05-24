@@ -29,7 +29,7 @@ This reference page signposts software developers to essential information and m
 - [NCTS Technical Interface Specifications (TIS)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/952903/TIS-012021accessible-v2__1_.pdf)
 - [TIS Appendices](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf)
 - [CTC Traders API Test Pack](https://www.gov.uk/government/publications/new-computerised-transit-system-technical-specifications)
-- [Application for Production Credentials Checklist](./../figures/CTC Traders API Application for Productions Credentials v11 dated 21.4.21 numbers match new CTC Traders API Test Pacl.docx)
+- [Application for Production Credentials Checklist](../figures/CTC_Traders_API_Application_for_Productions_Credentials_v16_21.5.21.docx)
 - [NCTS Trader Test Access and Channels](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf)
 - [IE messages supported by CTC](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/supported-messages.html)
 - [Postman collection of example API calls and cURL commands](https://github.com/hmrc/common-transit-convention-traders-postman)
