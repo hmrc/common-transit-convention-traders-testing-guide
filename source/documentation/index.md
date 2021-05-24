@@ -285,11 +285,11 @@ Email us your questions at <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Email enq
 
 * The CTC Traders API can only be used in production for Great Britain (and not Northern Ireland which will go live shortly in May 2021).
 * The CTC Traders API can be used for testing in Great Britain and also Northern Ireland.
-* You can also use this [Application for Production Credentials Checklist](https://developer.qa.tax.service.gov.uk/guides/common-transit-convention-traders-testing-guide/figures/CTC%20Traders%20API%20Application%20for%20Productions%20Credentials%20v11%20dated%2021.4.21%20numbers%20match%20new%20CTC%20Traders%20API%20Test%20Pacl.docx) form to complete and email back to us your test results.
+* You can also use this [Application for Production Credentials Checklist](https://developer.qa.tax.service.gov.uk/guides/common-transit-convention-traders-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v16_21.5.21.docx) form to complete and email back to us your test results.
 
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API: 
 
-1. Log all your evidence and results by filling in all the sections of this [checklist form](./../figures/CTC Traders API Application for Productions Credentials v11 dated 21.4.21 numbers match new CTC Traders API Test Pacl.docx) (this is a word document which is downloadable).
+1. Log all your evidence and results by filling in all the sections of this [checklist form](./../figures/CTC_Traders_API_Application_for_Productions_Credentials_v16_21.5.21.docx) (this is a word document which is downloadable).
 2. When you are ready, email your completed form to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Completed CTC API Application for Production Checklist form is attached to this email.">SDSTeam@hmrc.gov.uk</a>
 3. We will check your test evidence using the information you give on this form.
 4. When we are satisfied that you have done enough testing, you will be granted access to the live API system.
