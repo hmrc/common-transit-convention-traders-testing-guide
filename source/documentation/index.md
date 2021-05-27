@@ -285,7 +285,7 @@ Email us your questions at <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Email enq
 
 * The CTC Traders API can only be used in production for Great Britain (and not Northern Ireland which will go live shortly in May 2021).
 * The CTC Traders API can be used for testing in Great Britain and also Northern Ireland.
-* You can also use this [Application for Production Credentials Checklist](https://developer.qa.tax.service.gov.uk/guides/common-transit-convention-traders-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials_v16_21.5.21.docx) form to complete and email back to us your test results.
+* You can also use this [Application for Production Credentials Checklist](../figures/CTC_Traders_API_Application_for_Productions_Credentials_v16_21.5.21.docx) form to complete and email back to us your test results.
 
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API: 
 
