@@ -29,8 +29,8 @@ This reference page signposts software developers to essential information and m
 - [NCTS Technical Interface Specifications (TIS)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/952903/TIS-012021accessible-v2__1_.pdf)
 - [TIS Appendices](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf)
 - [CTC Traders API Test Pack](https://www.gov.uk/government/publications/new-computerised-transit-system-technical-specifications)
-- [Application for Production Credentials Checklist](../figures/CTC_Traders_API_Application_for_Productions_Credentials_v16_21.5.21.docx) (DOCX document opens and downloads)
-- [NCTS Trader Test Access and Channels](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf) (DOCX document opens and downloads)
+- [Application for Production Credentials Checklist](../figures/CTC_Traders_API_Application_for_Productions_Credentials.docx) (DOCX document opens and downloads)
+- [NCTS Trader Test Access and Channels](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf) (PDF document opens and downloads)
 - [IE messages supported by CTC](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/supported-messages.html)
 - [Postman collection of example API calls and cURL commands](https://github.com/hmrc/common-transit-convention-traders-postman)
 - [XSD reference files](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html)
@@ -285,7 +285,7 @@ Email us your questions at <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Email enq
 
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API: 
 
-1. Log all your evidence and results by filling in all the sections of this [checklist form](./../figures/CTC_Traders_API_Application_for_Productions_Credentials_v16_21.5.21.docx) (this is a word document which will download). You must also answer all the questions at the end of the checklist.
+1. Log all your evidence and results by filling in all the sections of this [checklist form](./../figures/CTC_Traders_API_Application_for_Productions_Credentials.docx) (this is a word document which will download). You must also answer all the questions at the end of the checklist.
 2. When you are ready, email your completed form to <a href="mailto:SDSTeam@hmrc.gov.uk?subject=Completed CTC API Application for Production Checklist form is attached to this email.">SDSTeam@hmrc.gov.uk</a>
 3. We will check your test evidence using the information you give on this form.
 4. When we are satisfied that you have done enough testing, you will be granted access to the live API system.
