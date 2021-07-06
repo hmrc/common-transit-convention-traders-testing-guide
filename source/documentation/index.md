@@ -90,14 +90,12 @@ See IE016 cURL command
 
 See Get Dept Id cURL command
 
-You can also find a full list of [cURL commands on our GitHub page](https://github.com/hmrc/common-transit-convention-traders-postman/blob/master/Curl%20commands/Curl%20Commands%20for%20External%20Test).
+If you are seeking examples of the XML requests to send to our service, you can find them in our [repo on Github](https://github.com/hmrc/common-transit-convention-traders-postman/). You can find [XML cURL files](https://github.com/hmrc/common-transit-convention-traders-postman/blob/master/Curl%20commands/Curl%20Commands%20for%20External%20Test) and [Postman collection files](https://github.com/hmrc/common-transit-convention-traders-postman/tree/master/Collections).
 
-You can access and use our full collection of [postman test scripts on GitHub](https://github.com/hmrc/common-transit-convention-traders-postman/tree/master/Collections). This collection of test scripts will give you examples of how to connect to our API.
+If you want to use the XML directly, you can extract these from the files found in the Github repository either by using:
 
-You will need to:
-
-- Access the [readme file](https://github.com/hmrc/common-transit-convention-traders-postman/blob/master/README.md) and Postman Collections for CTC API Traders
-- Follow the on screen instructions
+- Postman for the [Postman collection](https://github.com/hmrc/common-transit-convention-traders-postman/tree/master/Collections)
+- Text editor for [all files](https://github.com/hmrc/common-transit-convention-traders-postman/)
 
 ## XSD files
 
