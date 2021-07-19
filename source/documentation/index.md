@@ -42,6 +42,26 @@ This section provides more detailed information and instructions to new software
 
 We strongly advise you to start testing your software for compatibility purposes as soon as possible. 
 
+## Push pull notifications
+
+When testing your software, you can be sent automatic notifications using the [Push Pull Notifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/push-pull-notifications-api/1.0) API. This is where notifications of new messages from NCTS to you can be pushed to your software in near real time. To get these automatic messages, you must:
+
+* subscribe to the Push Pull Notifications service
+* subscribe to the CTC Traders API in the sandbox environment
+* configure the notification URL in the subscription configuration section of Developer Hub:
+
+<img src="./figures/notification_url_subscription.png"/>
+
+To subscribe to the Push Pull Notifications service, go to Developer Hub.
+
+<img src="./figures/Push_Pull_Notification_switch.png"/>
+
+To find out more information about go to [push pull notifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/push-pull-notifications-api/1.0).
+
+This sequence diagram visualises the push pull notification components and process whereby your service needs to return a 200 HTTP status as part of the automated notification process. Use the Push Pull Notifications service to get notifications (pull) and to receive notifications (push) automatically.
+
+<img src="./figures/Push_NCTS_Diagram.png"/>
+
 ## Test your scenarios
 
 - Our API lets software developers and test engineers submit departure and arrival movement notifications into our sandbox testing environment. 
