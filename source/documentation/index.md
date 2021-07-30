@@ -44,6 +44,8 @@ We strongly advise you to start testing your software for compatibility purposes
 
 ## Push pull notifications
 
+> **Note**: if your endpoint is hosted by Amazon Web Services (AWS) then you must either use [edge-optimised custom domain names](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-edge-optimized-custom-domain-name.html) or [regional custom domain names](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-regional-api-custom-domain-create.html).
+
 When testing your software, you can be sent automatic notifications using the [Push Pull Notifications](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/push-pull-notifications-api/1.0) API. This is where notifications of new messages from NCTS to you can be pushed to your software in near real time. To get these automatic messages, you must:
 
 * subscribe to the Push Pull Notifications service
