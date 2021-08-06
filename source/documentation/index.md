@@ -74,7 +74,7 @@ Trader Test simulates both the automated responses and also the real life experi
 You must
 
 1. Test common scenarios using our [CTC Traders API Test Pack](https://www.gov.uk/government/publications/new-computerised-transit-system-technical-specifications). This gives you all the reference data you need to do our tests plus any of your own tailored tests.
-2. Check against our [XSDs](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html) for schema validation. You can download a zip file with all the CTC Traders API XSDs.
+2. Check against our [XSDs](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-service-guide/documentation/xsd-reference.html) for schema validation. You can download a zip file with all the CTC Traders API XSDs. You should note you must not include the MesSenMES3 XML element when sending your message to our API. Our system will automatically populate that data element for you.
 3. Cross reference with [TIS Appendix B Technical Message Structures](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/641489/NCTSPhase4TISAppv3_9_3.pdf) to check which data fields are optional and mandatory. 
 4. When you need a manual response, email us to request this. You can find more information about this in the [NCTS Access and Channels document](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf).
 
@@ -130,6 +130,7 @@ You can access a full list of [XSD reference files](https://developer.service.hm
   - IE029 (CC029B)
   - IE043 (CC043A)
   - IE051 (CC051B)
+- You should also note you must not include the MesSenMES3 XML element when sending your message to our API. Our system will automatically populate that data element for you
 
 ## Mapping document
 
