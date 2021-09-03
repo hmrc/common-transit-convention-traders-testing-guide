@@ -68,6 +68,7 @@ This sequence diagram visualises the push pull notification components and proce
 
 - Our API lets software developers and test engineers submit departure and arrival movement notifications into our sandbox testing environment. 
 - You can test your software by using our sandbox to ensure that its connectivity works properly with HMRC systems.
+- Any test data which is more than 28 days old is automatically deleted from our systems. Do not poll for movements that have not been updated by you or NCTS in the last 28 days. Otherwise this will result in an error code of **404 Not Found**.
 
 Trader Test simulates both the automated responses and also the real life experience where NCTS support staff do the tasks of Border Force personnel. So during your testing when you require a manual response, they will perform the live manual steps of the process. This simulates and tests a full real-life journey from start to finish for you. 
 
@@ -282,6 +283,11 @@ So for example, when testing message IE015 do not change the text which is **BLO
 You can also use the reference data included in our Test Pack to run your software tests outside of the scope of the scenarios that we have listed. These will have limited support.
 
 You must always remember to follow the same physical format for all data fields. For example, you could replace £5,000.00 guarantee amount to £11,000.00.
+
+You must also note:
+
+- if your software polls for movement updates, remember that all movements older than 28 days are removed automatically from our system 
+- you will get an error message stating **404 Not Found** for all of the older movements that you are still polling for
 
 ## Checking API service availability
 
