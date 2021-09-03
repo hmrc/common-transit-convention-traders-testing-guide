@@ -4,7 +4,7 @@ weight: 1
 description: Software developers, designers, product owners or business analysts. Integrate your software with Common Transit Convention Traders API.
 ---
 
-# CTC Traders API trader test guidance and support
+# CTC Traders API Testing Guide
 
 ## General guidance
 
