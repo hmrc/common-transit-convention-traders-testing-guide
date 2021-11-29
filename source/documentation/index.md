@@ -84,17 +84,17 @@ To get these automatic messages, you must:
  - subscribe to the CTC Traders API in the sandbox environment
  - configure the notification URL in the subscription configuration section of Developer Hub:
  
- ![NotificationWebAddress]()
+ ![NotificationWebAddress](/figures/notification_url_subscription.png)
 
 To subscribe to the Push Pull Notifications service, go to Developer Hub.
 
- ![Subscription]()
+ ![Subscription](/figures/Push_Pull_Notification_switch.png)
  
 ###How it works
 
 This diagram shows an example of the process where your service needs to return a 200 HTTP status as part of the automated notification process.
 
-![Push Message From NCTS]()
+![Push Message From NCTS](/figures/Push_NCTS_Diagram.png)
 
 ##Submit your results
 
@@ -114,7 +114,7 @@ Email our Software Developer Support Team at [SDSTeam@hmrc.gov.uk](mailto:SDSTea
 
 While using the Trader Test service, you may need to request a manual intervention from Trader Test support. 
 
-You can find more information about this in the [NCTS Access and Channels document](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf), but when you need to generate a manual response, [email the Trader Test support team with your request](). 
+You can find more information about this in the [NCTS Access and Channels document](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf), but when you need to generate a manual response, [email the Trader Test support team with your request](mailto:SDSTeam@hmrc.gsi.gov.uk)). 
 
 Please note - it can take 24 hours to get a response.
 
