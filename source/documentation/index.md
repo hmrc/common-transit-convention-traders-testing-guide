@@ -114,7 +114,7 @@ Email our Software Developer Support Team at [SDSTeam@hmrc.gov.uk](mailto:SDSTea
 
 While using the Trader Test service, you may need to request a manual intervention from Trader Test support. 
 
-You can find more information about this in the [NCTS Access and Channels document](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf), but when you need to generate a manual response, [email the Trader Test support team with your request](mailto:SDSTeam@hmrc.gsi.gov.uk)). 
+You can find more information about this in the [NCTS Access and Channels document](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf), but when you need to generate a manual response, [email the Trader Test support team with your request](mailto:NCTS.tradertestteam@hmrc.gov.uk)). 
 
 Please note - it can take 24 hours to get a response.
 
