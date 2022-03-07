@@ -96,6 +96,30 @@ This diagram shows an example of the process where your service needs to return 
 
 ![Push Message From NCTS](/figures/Push_NCTS_Diagram.png)
 
+###Examples of Push Notification XML
+
+The following example push notification shows how to embed the XML body within JSON for messages that are small enough to include in the notification:
+
+    {
+       "notificationId":"5049d7bf-1cae-4b7a-8dd0-fe225e0ce9f5",
+       "boxId":"59cfdd13-7876-4646-a292-a271eaa8c350",
+       "messageContentType":"application/json",
+       "message":"{\"messageUri\":\"/customs/transits/movements/arrivals/4/messages/3\",\"requestId\":\"/customs/transits/movements/arrivals/4\",\"customerId\":\"9999999902\",\"arrivalId\":\"4\",\"messageId\":3,\"received\":\"2022-03-03T15:48:00\",\"messageType\":\"IE025\",\"messageBody\":\"<CC025A>\\n          <SynIdeMES1>RVDp</SynIdeMES1>\\n          <SynVerNumMES2>2</SynVerNumMES2>\\n          <MesSenMES3>GXLpwsEurxXkLIObahe9</MesSenMES3>\\n          <MesRecMES6>4ABk3gQBHk</MesRecMES6>\\n          <DatOfPreMES9>20220303</DatOfPreMES9>\\n          <TimOfPreMES10>1548</TimOfPreMES10>\\n          <IntConRefMES11>GgL</IntConRefMES11>\\n          <MesIdeMES19>YE9zR</MesIdeMES19>\\n          <MesTypMES20>PDSy</MesTypMES20>\\n          <HEAHEA>\\n            <DocNumHEA5>nn4eU6HeptlnkYFeVuJR</DocNumHEA5>\\n            <GooRelDatHEA176>15150103</GooRelDatHEA176>\\n          </HEAHEA>\\n          <TRADESTRD/>\\n          <CUSOFFPREOFFRES>\\n            <RefNumRES1>y9Y7TehM</RefNumRES1>\\n          </CUSOFFPREOFFRES>\\n        </CC025A>\"}",
+       "status":"PENDING",
+       "createdDateTime":"2022-03-03T15:48:50.171+0000"
+    }
+
+The following example push notification shows how to embed the XML body within JSON for messages where the XML is too large to include in the payload:
+
+    {
+       "notificationId":"f1ac5fc8-a8b5-4c8d-8f8b-1bcc7ff50057",
+       "boxId":"59cfdd13-7876-4646-a292-a271eaa8c350",
+       "messageContentType":"application/json",
+       "message":"{\"messageUri\":\"/customs/transits/movements/arrivals/4/messages/4\",\"requestId\":\"/customs/transits/movements/arrivals/4\",\"customerId\":\"9999999902\",\"arrivalId\":\"4\",\"messageId\":4,\"received\":\"2022-03-03T15:58:00\",\"messageType\":\"IE043\"}",
+       "status":"PENDING",
+       "createdDateTime":"2022-03-03T15:58:28.485+0000"
+    }
+    
 ##Submit your results
 
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API:
