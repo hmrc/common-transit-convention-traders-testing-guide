@@ -109,7 +109,7 @@ The following example push notification shows how to embed the XML body within J
        "createdDateTime":"2022-03-03T15:48:50.171+0000"
     }
 
-The following example push notification shows how to embed the XML body within JSON for messages where the XML is too large to include in the payload:
+The following example push notification shows how the XML is not embedded in the body within JSON for messages where the XML is too large to include in the payload. Instead, the XML must be downloaded from the messageUrl provided:
 
     {
        "notificationId":"f1ac5fc8-a8b5-4c8d-8f8b-1bcc7ff50057",
