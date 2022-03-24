@@ -124,7 +124,7 @@ The following example push notification shows how the XML is not embedded in the
 
 Performance tests indicate that messages up to 4.9MB in size are likely to be delivered successfully and receive the expected asynchronous responses from NCTS. However, if you are expecting an IE016 message in response, depending on the number of errors encountered within a message, it might take up to 5 minutes for the message to arrive.
 
-**Note**: For large messages, consider making use of the [push-pull notifications API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/push-pull-notifications-api/1.0) to be sent automatic notifications from NCTS in near real time. (See [How to test for push pull notifications](#how-to-test-for-push-pull-notifications).)
+**Note**: For large messages, consider making use of the [push-pull notifications API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/push-pull-notifications-api/1.0) to have automatic notifications sent from NCTS in near real time. (See [How to test for push pull notifications](#how-to-test-for-push-pull-notifications).)
 
 ##Submit your results
 
