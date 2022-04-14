@@ -48,6 +48,15 @@ You can do this by performing a series of compatibility tests on your software u
 6. **Subscribe to our Common Transit Convention Traders API** on the Developer Hub under the section called Your Specific Applications.
 7. **Create a Client ID and Client Secret.**
 8. Use the Create Test User API to **get a user ID, password, EORI enrolment and other test details**. Ensure you include the CTC Trader EORI enrolment by including the following request body in the call to the Create Test User API:
+
+```
+{   
+    "serviceNames": [     
+        "common-transit-convention-traders"   
+    ] 
+}
+```
+
 9. You will also need to access and use the [NCTS Trader Test Access and Channels](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf) reference guide (ODT document opens and downloads). You will need this guide to help you navigate between the old XML based system and our new API.
 
 ##How to test your software
