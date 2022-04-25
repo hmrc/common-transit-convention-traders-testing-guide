@@ -47,16 +47,15 @@ You can do this by performing a series of compatibility tests on your software u
 5. **Create a user ID and password** for either an [individual](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/api-platform-test-user/1.0#_create-a-test-user-which-is-an-individual_post_accordion) or an [organisation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/api-platform-test-user/1.0#_create-a-test-user-which-is-an-organisation_post_accordion).
 6. **Subscribe to our Common Transit Convention Traders API** on the Developer Hub under the section called Your Specific Applications.
 7. **Create a Client ID and Client Secret.**
-8. Use the Create Test User API to **get a user ID, password, EORI enrolment and other test details**. Ensure you include the CTC Trader EORI enrolment by including the following request body in the call to the Create Test User API:
+8. Use the [Create Test User API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/api-platform-test-user/1.0) to **generate a new test user**. Ensure that the test user has the correct enrolment by including the following request body in the call to the Create Test User API:
 
-```
-{   
-    "serviceNames": [     
-        "common-transit-convention-traders"   
-    ] 
-}
-```
-
+    ```json
+    {   
+        "serviceNames": [     
+            "common-transit-convention-traders"   
+        ] 
+    }
+    ```
 9. You will also need to access and use the [NCTS Trader Test Access and Channels](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/940784/NCTS_Trader_Test_Access_Channels_and_Support_v1.1.pdf) reference guide (ODT document opens and downloads). You will need this guide to help you navigate between the old XML based system and our new API.
 
 ##How to test your software
