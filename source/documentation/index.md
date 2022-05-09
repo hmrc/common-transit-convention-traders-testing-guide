@@ -134,14 +134,31 @@ Performance tests indicate that messages up to 4.9MB in size are likely to be de
 
 **Note**: For large messages, consider making use of the [push-pull notifications API](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/push-pull-notifications-api/1.0) to have automatic notifications sent from NCTS in near real time. (See [How to test for push pull notifications](#how-to-test-for-push-pull-notifications).)
 
-##Submit your results
+## Example IE044 message scenarios
+
+This section provides examples of XML to illustrate particular IE044 message scenarios.
+
+### Missing item
+
+This example file illustrates the situation when a good item is expected but not received: <a href="figures/IE44_Missing goods item.txt" download>IE44_Missing goods item.txt</a>
+
+### Differences and new data: differences at header level
+
+This example file illustrates the situation when a good item has some differences at the header level: <a href="figures/IE44_Difference at Header level.txt" download>IE44_Difference at Header level.txt</a>
+
+### New item
+
+This example file illustrates the situation when a new item is reported: <a href="figures/IE44_New Item Found In GoodItem.txt" download>IE44_New Item Found In GoodItem.txt</a>
+
+ 
+## Submit your results
 
 Once you are satisfied with your tests and are confident that your software is fully compatible with our API:
  - log all your evidence and results by filling in all the sections of this [checklist form](https://developer.service.hmrc.gov.uk/guides/common-transit-convention-traders-testing-guide/figures/CTC_Traders_API_Application_for_Productions_Credentials.docx) (this is a Word document which will download). You must also answer all the questions at the end of the checklist.
  - when ready, email your completed form to [SDSTeam@hmrc.gov.uk](mailto:SDSTeam@hmrc.gov.uk)
  - we’ll check your test evidence using the information you give on this form.
  - when we are satisfied that you have done enough testing, you will be granted access to the live API system.
- 
+
 ##Get support
 
 ###General support for development and testing

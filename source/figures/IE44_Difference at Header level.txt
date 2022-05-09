@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CC044A>
+   <SynIdeMES1>UNOC</SynIdeMES1>
+   <SynVerNumMES2>3</SynVerNumMES2>
+   <MesSenMES3>mdtp-00004-01</MesSenMES3>
+   <MesRecMES6>NTA.GB</MesRecMES6>
+   <DatOfPreMES9>20211122</DatOfPreMES9>
+   <TimOfPreMES10>1142</TimOfPreMES10>
+   <IntConRefMES11>6966379</IntConRefMES11>
+   <AppRefMES14>CUSDECI-TR01</AppRefMES14>
+   <AckReqMES16>0</AckReqMES16>
+   <ComAgrIdMES17>ISO-8859-1</ComAgrIdMES17>
+   <TesIndMES18>0</TesIndMES18>
+   <MesIdeMES19>1</MesIdeMES19>
+   <MesTypMES20>GB044A</MesTypMES20>
+   <HEAHEA>
+      <DocNumHEA5>21XI00014210026CB0</DocNumHEA5>
+      <IdeOfMeaOfTraAtDHEA78>Identity at Departure</IdeOfMeaOfTraAtDHEA78>
+      <IdeOfMeaOfTraAtDHEA78LNG>EN</IdeOfMeaOfTraAtDHEA78LNG>
+      <TotNumOfIteHEA305>1</TotNumOfIteHEA305>
+      <TotNumOfPacHEA306>10</TotNumOfPacHEA306>
+      <TotGroMasHEA307>100</TotGroMasHEA307>
+   </HEAHEA>
+   <TRADESTRD>
+      <NamTRD7>NCTS TEST TRADER</NamTRD7>
+      <StrAndNumTRD22>CE HEATH HOUSE, VICTORIA AV</StrAndNumTRD22>
+      <PosCodTRD23>SS2 6DX</PosCodTRD23>
+      <CitTRD24>SOUTHEND-ON-SEA, ESSEX</CitTRD24>
+      <CouTRD25>GB</CouTRD25>
+      <NADLNGRD>EN</NADLNGRD>
+      <TINTRD59>GB954133135000</TINTRD59>
+   </TRADESTRD>
+   <CUSOFFPREOFFRES>
+      <RefNumRES1>GB000060</RefNumRES1>
+   </CUSOFFPREOFFRES>
+   <UNLREMREM>
+      <StaOfTheSeaOKREM19>1</StaOfTheSeaOKREM19>
+      <UnlRemREM53>MANCO Pos 1 2019-06-17</UnlRemREM53>
+      <UnlRemREM53LNG>EN</UnlRemREM53LNG>
+      <ConREM65>0</ConREM65>
+      <UnlComREM66>1</UnlComREM66>
+      <UnlDatREM67>20211122</UnlDatREM67>
+   </UNLREMREM>
+   <RESOFCON534>
+             <ConInd424>DI</ConInd424>
+             <PoiToTheAttTOC5>35</PoiToTheAttTOC5>
+             <CorValTOC4>120</CorValTOC4>
+   </RESOFCON534> 
+   <SEAINFSLI>
+      <SeaNumSLI2>1</SeaNumSLI2>
+      <SEAIDSID>
+         <SeaIdeSID1>SS 1</SeaIdeSID1>
+      </SEAIDSID>
+   </SEAINFSLI>           
+</CC044A>
